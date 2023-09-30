@@ -30,7 +30,7 @@ const Contact = () => {
     <div className="sk">
     <div className="Contact">
     <form ref={form} onSubmit={sendEmail} className='email' style={{width:"300px"}}>
-    <h1 style={{color:"white"}}>COONTACT ME</h1><br /><br />
+    <h1 style={{color:"white"}}>CONTACT ME</h1><br /><br />
     <input type="text" value={name} onChange={(e)=>setName(e.targetvalue)} name="user_name" placeholder='Your Name' style={{borderRadius:"5px",border:"3px solid orange"}}/><br />
     <label></label>
     <input type="tel" value={num} onChange={(e)=>setNum(e.targetvalue)} name="user_num" placeholder='Mobile Number' style={{borderRadius:"5px",border:"3px solid orange"}}/><br />
