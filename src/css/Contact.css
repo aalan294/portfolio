@@ -22,6 +22,14 @@ body{
     justify-content: center;
     align-items: center;
 }
+.email input{
+    width: 250px;
+    padding: 1rem;
+}
+textarea{
+    width: 250px;
+    padding: 1rem;
+}
 .email{
     height: 60vh;
     display: flex;
@@ -30,6 +38,7 @@ body{
     padding: 1rem;
     border: 2px solid orange;
     border-radius: 15px;
+    overflow:scroll;
   }
   .email label{
     position: absolute;
@@ -46,6 +55,21 @@ body{
   }
   @media screen and (max-width: 750px) {
     .cover{
-        width: 95%;
+        width: 95%;  
     }
+    .email{
+        width: 80%;
+    }
+    .email .ebut{
+        margin-top: 0;
+    }
+    .email input{
+        width: 80%;
+        padding: 0.7rem;
+    }
+    textarea{
+        width: 80%;
+        padding: 0.7rem;
+    }
+
   }

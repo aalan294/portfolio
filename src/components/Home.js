@@ -7,7 +7,7 @@ import '../css/Home.css'
 const Home = () => {
   return (
     <>
-    <img src={logo} alt="" className='logo' />
+    <img src={logo} alt="" className='logo' /><br /><br /><br /><br />
     <div className='Home'>
         <div className="about">
             <h1>Full-Stack Engineer (MERN)</h1><br />

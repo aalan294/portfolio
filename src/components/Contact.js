@@ -31,11 +31,11 @@ const Contact = () => {
     <div className="Contact">
     <form ref={form} onSubmit={sendEmail} className='email' style={{width:"300px"}}>
     <h1 style={{color:"white"}}>COONTACT ME</h1><br /><br />
-    <input type="text" value={name} onChange={(e)=>setName(e.targetvalue)} name="user_name" placeholder='Your Name' style={{width:"250px",borderRadius:"5px",padding:"1rem",border:"3px solid orange"}}/><br />
+    <input type="text" value={name} onChange={(e)=>setName(e.targetvalue)} name="user_name" placeholder='Your Name' style={{borderRadius:"5px",border:"3px solid orange"}}/><br />
     <label></label>
-    <input type="tel" value={num} onChange={(e)=>setNum(e.targetvalue)} name="user_num" placeholder='Mobile Number' style={{width:"250px",borderRadius:"5px",padding:"1rem",border:"3px solid orange"}}/><br />
+    <input type="tel" value={num} onChange={(e)=>setNum(e.targetvalue)} name="user_num" placeholder='Mobile Number' style={{borderRadius:"5px",border:"3px solid orange"}}/><br />
     <label></label>
-    <textarea name="message" value={mess} onChange={(e)=>setMess(e.targetvalue)} placeholder='What I need to do for you?' style={{width:"250px",borderRadius:"5px",padding:"1rem",height:"40px",border:"3px solid orange"}}/><br />
+    <textarea name="message" value={mess} onChange={(e)=>setMess(e.targetvalue)} placeholder='What I need to do for you?' style={{borderRadius:"5px",height:"40px",border:"3px solid orange"}}/><br />
     <input className='ebut' type="submit" value="Send" />
   </form>
     </div>

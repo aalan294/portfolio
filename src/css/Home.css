@@ -59,6 +59,9 @@ body{
   }
   .logo{
     width: 300px;
+    position: absolute;
+    left: 0;
+    top:0;
   }
   .social{
     /* position: fixed;
